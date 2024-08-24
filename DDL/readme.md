@@ -1,0 +1,12 @@
+# DDL (Data Definition Language)
+- CREATE TABLE table_name
+- ALTER TABLE table_name
+    - ADD COLUMN column_name data_type
+    - RENAME TO new_table_name
+    - RENAME COLUMN old_column_name TO new_column_name
+    - ALTER COLUMN column_name SET DATA TYPE data_type
+- DROP TABLE table_name
+- TRUNCATE TABLE table_name
+- DROP COLUMN column_name
+- ALTER TABLE table_name DROP CONSTRAINT constraint_name
+- DROP CONSTRAINT constraint_name
